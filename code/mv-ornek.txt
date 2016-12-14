@@ -1,0 +1,15 @@
+$ ls
+harf  harfler  list  liste1  sayilar
+
+$ mkdir depo
+
+$ ls
+depo  harf  harfler  list  liste1  sayilar
+
+$ mv sayilar depo
+
+$ ls
+depo  harf  harfler  list  liste1
+
+$ ls depo
+sayilar

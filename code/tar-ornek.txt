@@ -1,0 +1,15 @@
+# Öncelikle ls komutu ile şu an bulunduğumuz dizini görüntüleyelim
+
+kullanıcı@makine:~/örnek$ ls
+mavi turuncu yeşil pembe mor siyah renkler-eski.doc
+
+# mavi turuncu yeşil pembe mor siyah dosyalarını renkler.tar.gz adlı sıkıştırılmış arşive ekleyelim
+
+kullanıcı@makine:~/örnek$ tar -czvf renkler.tar.gz mavi turuncu yeşil pembe mor siyah
+
+kullanıcı@makine:~/örnek$ ls
+mavi turuncu yeşil pembe mor siyah renkler.tar.gz renkler-eski.doc
+
+# arşiv dosyası başka bir klasöre taşınıp açılabilir, mavi turuncu yeşil pembe mor siyah dosyaları açığa çıkartılabilir
+
+kullanıcı@makine:~/başka-klasör$ tar -czvf renkler.tar.gz

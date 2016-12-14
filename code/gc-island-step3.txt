@@ -1,0 +1,11 @@
+$ tail -n +2 Ecoli-genome.fa | tr "ACGT" " __ "  | tr -s " " "\n" | head 
+
+__
+_
+_
+_
+_
+__
+_____
+_
+_
